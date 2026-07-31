@@ -1,7 +1,30 @@
 aid: nurture
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nurture.png
 name: Nurture
-description: Nurture is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nurture is an EdTech company that turns children's screen time into
+  skill-building experiences through an interactive storytelling app for kids
+  aged 5-7. Built on the thesis that AI is mastering information while human
+  skills — critical thinking, curiosity, empathy, creativity, and resilience —
+  still need to be nurtured, the app delivers character-driven story adventures
+  with practice-based learning, no in-app purchases, no ads, and no endless
+  autoplay. It is COPPA-compliant and features licensed brands such as Care
+  Bears, Crayola, and Pocoyo. Nurture is a consumer mobile product distributed
+  on the iOS App Store, Google Play, and Amazon Appstore, sold as a $36/year
+  subscription with a 7-day free trial. It is a Seedcamp portfolio company. As a
+  consumer application, Nurture publishes no public developer API, SDK, or
+  integration surface; api.nurture.is serves only an internal app backend.
 url: https://raw.githubusercontent.com/api-evangelist/nurture/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- EdTech
+- Education
+- Kids
+- Children
+- Learning
+- Mobile App
+- Interactive Storytelling
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://nurture.is
+  url: https://nurture.is
+- type: Support
+  url: https://docs.nurture.is/en
+- type: Pricing
+  url: https://nurture.is/pricing
+- type: TermsOfService
+  url: https://nurture.is/terms
+- type: PrivacyPolicy
+  url: https://nurture.is/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
